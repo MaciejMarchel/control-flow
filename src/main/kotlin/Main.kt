@@ -22,6 +22,13 @@ fun minimumOf(number1: Long, number2: Long){
     //TODO This function takes in two numbers and:
     //  if number1 is less than number2, then print a message informing the user of that.
     //  if number1 is greater than or equal to number2, print a message letting the user know that.
+    if (number1 <= number2) {
+        print("number1 is less than number2")
+        number2
+    } else {
+        print("number1 is greater than or equal to number2")
+        number1
+    }
 }
 
 fun rangeOf(number: Int){
